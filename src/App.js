@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-
 import {HashRouter, Switch, Route} from 'react-router-dom';
-
-import MainContainer from './modules/login/main';
+import MainContainer from './modules/login/screens/main';
 
 class App extends Component {
   render() {
